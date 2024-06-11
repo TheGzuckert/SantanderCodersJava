@@ -33,6 +33,9 @@
 ### Querys
 
 ```sql
+
+-- Criando Tabelas
+
 CREATE TABLE public.disciplinas (
 	id_disciplina integer primary KEY,
 	nome varchar NULL,
@@ -61,12 +64,18 @@ create table livro(
 
 select * from livro
 
+-- Inserindo Dados
+
 insert into disciplinas values
 (2, 'matematica', 'algebra e geometria'),
 (3, 'fisica', 'cinematica e dinamica');
 
+-- Importanto csv
+
 copy disciplinas (id_disciplina,nome,ementa) 
 from 'C:\Users\Dell\Documents>disciplinas.csv' delimiter ',' csv header
+
+
 ```
 
 
