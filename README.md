@@ -11,10 +11,8 @@
 - [ ] - Introdução a algoritmos
 - [ ] - Design Patterns Java
 
-## Boas praticas Java
-
 <details>
-  <summary>Clique para expandir</summary>
+  <summary>Boas praticas Java</summary>
   <ul>
     <li>Conter apenas: letras, _, $ ou numero de 0 a 9</li>
     <li>Uma boa prática é começar a declará-las com apenas letras minúsculas</li>
