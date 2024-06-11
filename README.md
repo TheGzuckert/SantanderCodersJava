@@ -83,6 +83,12 @@ where id_disciplina = 7
 
 delete from disciplinas where id_disciplina = 8
 
+-- Criando index para deixar as tabelas mais rapidas
+
+select * from disciplinas where nome = 'geografia'
+
+create index idx_nome on disciplinas(nome)
+
 ```
 
 
