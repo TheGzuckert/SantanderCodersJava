@@ -16,7 +16,7 @@
 <details>
   <summary>São elas</summary>
   <ul>
-    <li>Conter apenas: letras, _, $ ou numero de 0 a 9</li>
+    <li>Conter apenas: letras, _, $ ou numero de 0 a 9 ao declarar variaveis</li>
     <li>Uma boa prática é começar a declará-las com apenas letras minúsculas</li>
     <li>Não é possível declarar variáveis com palavras reservadas do Java</li>
     <li>Valores Default são iniciados como 0, boolean como false e float e double como 0.0</li>
