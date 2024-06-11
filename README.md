@@ -11,6 +11,8 @@
 - [ ] - Introdução a algoritmos
 - [ ] - Design Patterns Java
 
+### Boas praticas em Java
+
 <details>
   <summary>Boas praticas Java</summary>
   <ul>
