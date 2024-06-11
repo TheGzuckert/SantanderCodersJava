@@ -40,9 +40,6 @@ CREATE TABLE public.disciplinas (
 	ementa text NULL
 );
 
-select * from disciplinas
-
-
 create table professore(
 	id_professor integer,
 	celular varchar(14),
@@ -52,15 +49,11 @@ create table professore(
 	FOREIGN key (id_disciplina) references disciplinas (id_disciplina)
 );
 
-select * from professore
-
 create table livro(
 	name varchar(15),
 	autor varchar(40),
 	sinopse varchar(500)
 );
-
-select * from livro
 
 -- Inserindo Dados
 
@@ -72,7 +65,6 @@ insert into disciplinas values
 
 copy disciplinas (id_disciplina,nome,ementa) 
 from 'C:\Users\Dell\Documents>disciplinas.csv' delimiter ',' csv header
-
 
 -- Alterando valores com update e delete
 
@@ -88,7 +80,3 @@ select * from disciplinas where nome = 'geografia'
 create index idx_nome on disciplinas(nome)
 
 ```
-
-
-
-
