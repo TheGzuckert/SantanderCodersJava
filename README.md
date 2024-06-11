@@ -22,9 +22,7 @@
     <li>Valores Default são iniciados como 0, boolean como false e float e double como 0.0</li>
     <li>Char é vazio e String vem como valor null</li>
     <li>É possível colocar _ para separar números, exemplo:
-      ```java
-      int a = 23_45_879;
-      ```
+      "int a = 23_45_879"
       pois não atrapalha em nada na execução do código</li>
     <li>Garbage collector joga objetos não utilizados no lixo quando não estão sendo utilizados</li>
   </ul>
