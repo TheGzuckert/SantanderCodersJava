@@ -1,14 +1,17 @@
-### Curso Santander Coders Triha de Java
+## Curso Santander Coders Triha de Java
+
+### Modulos
+
 - [x] - Git e Versionamento
 - [x] - Redes e Sistemas
 - [x] - Instrodução a Java
 - [x] - POO
-- [ ] - Banco de Dados
+- [x] - Banco de Dados
 - [ ] - Desing Patters
 - [ ] - Introdução a algoritmos
 - [ ] - Design Patterns Java
 
-### Boas praticas
+## Boas praticas Java
 
 ### Ao declarar uma varivel
 
@@ -24,6 +27,40 @@
 
  - garbage collector joga objetos não ultilizados no lixo quando não estão sendo ultilziados
 
+
+### Banco de Dados
+
+## Querys
+
+```sql
+CREATE TABLE public.disciplinas (
+	id_disciplina integer primary KEY,
+	nome varchar NULL,
+	ementa text NULL
+);
+
+select * from disciplinas
+
+
+create table professore(
+	id_professor integer,
+	celular varchar(14),
+	nome varchar(40),
+	id_disciplina integer,
+	primary key (id_professor),
+	FOREIGN key (id_disciplina) references disciplinas (id_disciplina)
+);
+
+select * from professore
+
+create table livro(
+	name varchar(15),
+	autor varchar(40),
+	sinopse varchar(500)
+);
+
+select * from livro
+```
 
 
 
