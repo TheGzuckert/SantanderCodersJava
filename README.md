@@ -76,6 +76,13 @@ copy disciplinas (id_disciplina,nome,ementa)
 from 'C:\Users\Dell\Documents>disciplinas.csv' delimiter ',' csv header
 
 
+-- Alterando valores com update e delete
+
+update disciplinas set nome = 'Biologia'
+where id_disciplina = 7
+
+delete from disciplinas where id_disciplina = 8
+
 ```
 
 
