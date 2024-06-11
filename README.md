@@ -28,9 +28,9 @@
  - garbage collector joga objetos não ultilizados no lixo quando não estão sendo ultilziados
 
 
-### Banco de Dados
+## Banco de Dados
 
-## Querys
+### Querys
 
 ```sql
 CREATE TABLE public.disciplinas (
@@ -60,6 +60,13 @@ create table livro(
 );
 
 select * from livro
+
+insert into disciplinas values
+(2, 'matematica', 'algebra e geometria'),
+(3, 'fisica', 'cinematica e dinamica');
+
+copy disciplinas (id_disciplina,nome,ementa) 
+from 'C:\Users\Dell\Documents>disciplinas.csv' delimiter ',' csv header
 ```
 
 
