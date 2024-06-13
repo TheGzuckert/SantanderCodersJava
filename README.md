@@ -28,7 +28,8 @@
   </ul>
 </details>
 
-### Querys
+### Banco de dados:
+- Querys
 
 ```sql
 
