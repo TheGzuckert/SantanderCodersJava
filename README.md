@@ -29,7 +29,7 @@
 </details>
 
 ### Banco de dados:
-- Querys
+- Querys:
 
 ```sql
 
