@@ -7,9 +7,9 @@
 - [x] - Instrodução a Java
 - [x] - POO
 - [x] - Banco de Dados
-- [ ] - Desing Patters
 - [ ] - Introdução a algoritmos
-- [ ] - Design Patterns Java
+- [ ] - Desing Patters
+
 
 ### Boas praticas em Java
 
