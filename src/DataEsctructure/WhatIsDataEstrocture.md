@@ -6,11 +6,3 @@
   - **HashMap**: implementação de um dicionário em Java.
   - **TreeMap**: implementação de um dicionário ordenado em Java.
 
-- **ArrayList**:
-  - **Vantagens**:
-    - Acesso direto aos elementos.
-    - Inserção e remoção de elementos em tempo constante.
-  - **Desvantagens**:
-    - Inserção e remoção de elementos em tempo linear.
-    - Aumento de tamanho do vetor em tempo linear.
-
